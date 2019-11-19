@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Primo sito</title>
+        <meta charset="utf-8">
+        <meta name="description" content="il mio sito">
+        <meta name="keywords" content="HTML, CSS, JQUERY , BOOSTRAP , JavaScript">
+        <meta name="author" content="Roberto Bellardi Gioli">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="Assets/puzzle.png" type="image/gif" sizes="16x16">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="Css/styleCss.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+       
+        <div id="centro">
+            <header id="top">
+                <nav class="navbar navbar-expand-lg">
+                  <a id="speciale" class="navbar-brand homeTop spazio" title="Blog" href="blog.html">Blog</a>
+                  <button class="navbar-toggler noBox" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon toggle-navBar"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link homeTop" title="Contatti" href="contact.html">Contatti<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link homeTop" title="Registrati" href="join.html">Registrati</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <img id="sfondo_header" src="Assets/cielo.jpg" alt="cielo">
+            </header>
+
+            <div id="center">
+                
+                <h1 class="tit">Introduzione</h1>
+                <br>
+                <h2 class="tit">Scrivere pagine in HTML</h2>
+                <br>
+                <p>Le pagine web sono scritte in HTML - un semplice linguaggio di scrittura, HTML è la forma abbreviata di HyperTextMarkupLanguage</p>
+                <br>
+                <ul>
+                    <li>Lìipertesto è semplicemente un testo che funziona come un link</li>
+                    <li>Markup Language è una maniera di scrivere informazioni su layout dei documenti</li>                
+                </ul>
+                <br>
+                <p>In pratica un documentoin HTML è soltanto un file che contiene solamente testo e nient'altro</p>
+                <br>
+                <h2 class="tit">Un pò di storia</h2>
+                <br>
+                <p>L’HTML nasce all’inizio degli anni 90. Inizialmente nasce per la condivisione di informazioni in ambito scientifico e universitario.         Successivamente è diventato Il mezzo di comunicazione e di condivisione per tutti.
+                    Nella tabella di seguito un breve excursus sui successivi rilasci.
+                </p>
+                <br>
+                <table id="table">
+                    <caption>L’HTML nel tempo</caption>
+                    <thead>
+                        <tr id="tittable">
+                            <th>Versione</th>
+                            <th>Anno</th> 
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr class="gray">
+                            <td>HTML</td>
+                            <td>1991</td>
+                        </tr>
+
+                        <tr>
+                            <td>HTML 2.0</td>
+                            <td>1995</td>
+                        </tr>
+                        <tr class="gray">
+                            <td>HTML 3.2</td>
+                            <td>1997</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 4.01(introduzione fogli di stile)</td>
+                            <td>1999</td>
+                        </tr>
+                        <tr class="gray">
+                            <td>XHTML 1</td>
+                            <td>2000</td>
+                        </tr>
+                        <tr>
+                            <td>HTML 5</td>
+                            <td>2014</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h2 class="tit">Html, come lavorare e sviluppare siti in modo professionale?</h2>
+                <br>
+                <p>I tag html disponibili per la rappresentazione dei contenuti hanno un valore semantico. Ci dicono qualcosa del contenuto.
+                    Come suggerito bene in questo vecchio articolo:
+                </p>
+                <br>
+                <div id="cit">
+                    <blockquote>
+                        “L’importanza della semanticità del codice è stata rafforzata proprio dall’evoluzione dell’HTML in XHTML. Il secondo, infatti, nato dalla fusione di HTML e XML, tenta di rendere il codice un metodo per definire la struttura di un sito e non la sua presentazione grafica, affidata invece ai CSS. Non devono essere presenti infatti nel documento XHTML gli attributi di presentazione normalmente associati ai tag, che vengono affidati invece al file CSS esterno o a stili inclusi nella &lt;head&gt; della pagina.”
+                    </blockquote>
+                </div>
+                <br>
+                <br>
+                <p>la separazione del contenuto dalle regole di presentazione è la base per la creazione di un codice formalmente corretto e già                ottimizzato in ottica SEO.
+                </p>
+                <br>
+                <p>Quando devi realizzare una pagina web puoi seguire alcune regole:</p>
+                <ol>
+                    <li>Imparare l’HTML;</li>
+                    <li>Definire il layout della pagina</li>
+                    <li>Inserire il tag giusto al posto giusto</li>
+                    <li>Lavorare con i contenuti</li>
+                    <li>Validare il codice</li>
+                    <li>Studiare studiare studiare...</li>
+                </ol>
+                <br>
+                <h2 class="tit">Sezione Body</h2>
+                <br>
+                <p>Il corpo, "body", del documento, contiene tutto ciò che è visibile quando la pagina viene scaricata. Nel resto di questo corso imparerai dettagliatamente tutti i diversi aspetti di HTML, compresi:
+                </p>
+                <ul>
+                    <li>Testo
+                        <ul>
+                            <li>Formattazione</li>
+                            <li>Ridimensionamento</li>
+                            <li>Layout</li>
+                            <li>Listing</li>
+                        </ul>
+                    </li>
+
+                    
+                    <li>Link
+                        <ul>
+                            <li>pagine locali</li>
+                            <li>pagine di altri siti</li>
+                            <li>segnalibri</li>
+                        </ul>                        
+                    </li>
+                    
+                    <li>Immagini
+                        <ul>
+                            <li>Inserimento di immagini</li>
+                            <li>Aggiunta di un link ad un'immagine</li>
+                        </ul>
+                    </li>
+                    
+                    <li>Tabelle</li>
+                </ul>
+                <br>
+                <figure>
+                    <img id="strutturaHTML" src="Assets/struttura.png" alt="struttura HTML">
+                    <figcaption>fig 1 - Esempio della struttura html, il body rappresenta la parte visualizzata dal browser</figcaption>
+                </figure>
+            </div>
+            <br>
+             <footer>
+                <h3>Roberto Bellardi Gioli - ultimo aggiornamento 30 ottobre 2019</h3>
+            </footer>            
+        </div>         
+    </body>
+</html>
