@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+#navigation-bar{
+    background-color: darkgray;
+    margin: 0;
+    width: 100%;
+    height: 65px;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.navigation-logo{
+    height: 50px;
+    padding: 0;
+}
+
+.navigation{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navifgation::after,::before{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button-nav-logo{
+    list-style-type: none;
+    padding: 5px 25px 5px 5px;
+}
+
+.button-nav{
+    list-style-type: none;
+    padding: 20px 25px;
+}
+
+.button-nav a:link,
+.button-nav a:visited,
+.button-nav a:active{
+    color: inherit;
+vertical-align: text-top;
+    text-decoration: none;
+}
+
+.button-nav-choose{
+    background-color: red;
+    color: white;
+}
+
+.button-nav:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.navigation-img{
+    height: 300px;
+    width: 100%;    
+}
+
+.navigation-section{
+    position: relative;
+    top: -150px;
+    left: 50px;
+    width: 410px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 10px;
+}
+
+.text-section{
+    margin: 0;
+    padding: 0;
+}
