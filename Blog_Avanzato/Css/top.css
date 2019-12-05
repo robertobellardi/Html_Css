@@ -29,6 +29,19 @@ body{
     display: table;
 }
 
+.navigation-form{
+    padding: 20px 0;
+    margin-left: 50%;
+}
+
+.navigation-form-label{
+    font-size: 20px;
+}
+
+.navigation-form-search{
+    height: 50px;
+}
+
 .button-nav-logo{
     list-style-type: none;
     padding: 5px 25px 5px 5px;
