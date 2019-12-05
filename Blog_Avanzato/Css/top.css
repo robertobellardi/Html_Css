@@ -2,6 +2,11 @@ body{
     margin: 0;
 }
 
+#page{
+    margin: 0 auto;
+    width: 1200px;
+}
+
 #navigation-bar{
     background-color: darkgray;
     margin: 0;
@@ -17,29 +22,58 @@ body{
     padding: 0;
 }
 
-.navigation{
+.navigation-list{
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navifgation::after,::before{
+.navifgation-list::after,::before{
     content: "";
     clear: both;
     display: table;
 }
 
 .navigation-form{
-    padding: 20px 0;
-    margin-left: 50%;
+    padding: 0 0;
+    margin-left: 17%;
+    height: 63px;
 }
 
-.navigation-form-label{
+.navigation-form-button{
+    position: relative;
+    top: -16px;
     font-size: 20px;
+    padding: 20px 20px 18px 20px;
+    margin-right: -5px;
+    background-color: darkgray;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+.navigation-form-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+
+.navigation-form-label:hover{
+    background-color: white;
+    color: red;
 }
 
 .navigation-form-search{
-    height: 50px;
+    height: 30px;
+    float: right;
+    margin: 17px 0 15px 15px;
+}
+
+.navigation-search-input{
+    padding: 20px 5px 21px 5px;
+    font-size: 20px;
+    margin: 0;
+    border: 0;
 }
 
 .button-nav-logo{
