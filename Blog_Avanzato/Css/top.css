@@ -1,127 +1,23 @@
-body{
-    margin: 0;
-}
-
-#page{
-    margin: 0 auto;
-    width: 1200px;
-}
-
-#navigation-bar{
-    background-color: darkgray;
-    margin: 0;
-    width: 100%;
-    height: 65px;
-    color: white;
-    font-size: 20px;
-    overflow: hidden;
-}
-
-.navigation-logo{
-    height: 50px;
-    padding: 0;
-}
-
-.navigation-list{
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navifgation-list::after,::before{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.navigation-form{
-    padding: 0 0;
-    margin-left: 17%;
-    height: 63px;
-}
-
-.navigation-form-button{
-    position: relative;
-    top: -16px;
-    font-size: 20px;
-    padding: 20px 20px 18px 20px;
-    margin-right: -5px;
-    background-color: darkgray;
-    border-style: solid;
-    border-color: darkgray;
-}
-
-.navigation-form-button:hover{
-    cursor: pointer;
-    background-color: white;
-    color: red;
-    border-color: red;
-}
-
-.navigation-form-label:hover{
-    background-color: white;
-    color: red;
-}
-
-.navigation-form-search{
-    height: 30px;
-    float: right;
-    margin: 17px 0 15px 15px;
-}
-
-.navigation-search-input{
-    padding: 20px 5px 21px 5px;
-    font-size: 20px;
-    margin: 0;
-    border: 0;
-}
-
-.button-nav-logo{
-    list-style-type: none;
-    padding: 5px 25px 5px 5px;
-}
-
-.button-nav{
-    list-style-type: none;
-    padding: 20px 25px;
-}
-
-.button-nav a:link,
-.button-nav a:visited,
-.button-nav a:active{
-    color: inherit;
-vertical-align: text-top;
-    text-decoration: none;
-}
-
-.button-nav-choose{
+.scelto{
     background-color: red;
-    color: white;
+    color: black;
 }
 
-.button-nav:hover{
+.scelto:hover{
     background-color: white;
     color: red;
-    cursor: pointer;
 }
 
-.navigation-img{
-    height: 300px;
-    width: 100%;    
+.nav-link-scelto{
+    color: inherit!important;
 }
 
-.navigation-section{
-    position: relative;
-    top: -150px;
-    left: 50px;
-    width: 410px;
-    background-color: black;
-    opacity: 0.5;
-    color: white;
-    padding: 10px;
+.navbar-logo{
+    width: 50px;
+    margin: 0 15px 0 0;
 }
 
-.text-section{
+.navbar-search{
+    width: 24px;
     margin: 0;
-    padding: 0;
 }
