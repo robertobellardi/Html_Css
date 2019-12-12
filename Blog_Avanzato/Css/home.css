@@ -3,6 +3,58 @@
     width: 100%;
 }
 
+.container-fluid{
+    margin: 0;
+}
+
 .container-img{
     padding: 0;
+    height: 300px;
+}
+
+.tit-hover-img{
+    position: relative;
+    top: -150px;
+    left: 25px;
+    color: white;
+    width: 500px;
+}
+
+.titolo-home{
+    margin-left: 1rem;
+}
+
+.sottit-home{
+    color: red;
+}
+
+.card{
+    width: 100%;
+    margin-left: 1rem;
+    border-style: none;
+}
+
+.card-right{
+    margin: 0;
+}
+
+.card-img-right{
+    float: right;
+    width: 250px;
+}
+
+.card-img-right-side{
+    width: 50%;
+}
+
+.red{
+    color: red;
+}
+
+.list-group-item{
+    border-style: none;
+}
+
+.item-border-bottom{
+    border-bottom-style: solid;
 }

@@ -1,7 +1,19 @@
-#footer{
-    display: flex;
+.row {
+    margin: 0;
 }
 
-.footer-left{
-    float: left;
+.dark-gray{
+    background-color: #343a40;
+    color: white;
+}
+
+.no-border {
+    border-style: none;
+    background-color: inherit;
+}
+
+.titolo {
+    font-size: 30px;
+    margin-left: 1rem;
+    color: red;
 }
