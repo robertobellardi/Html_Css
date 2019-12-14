@@ -58,3 +58,7 @@
 .item-border-bottom{
     border-bottom-style: solid;
 }
+
+.btn-right{
+    float: right;
+}

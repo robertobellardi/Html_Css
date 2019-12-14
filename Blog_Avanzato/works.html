@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Blog avanzato</title>
+    <meta charset="utf-8">
+    <meta name="description" content="il mio sito">
+    <meta name="keywords" content="HTML, CSS, JQUERY , BOOSTRAP , JavaScript">
+    <meta name="author" content="Roberto Bellardi Gioli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="Css/top.css">
+    <link rel="stylesheet" type="text/css" href="Css/home.css">
+    <link rel="stylesheet" type="text/css" href="Css/works.css">
+    <link rel="stylesheet" type="text/css" href="Css/bottom.css">
+</head>
+
+<body>
+    <div id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class="navbar-logo" src="Assets/Icon/logo.png" alt="logo.png">
+            <a class="navbar-brand" href="blog.html">MyBrand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Home</a>
+                    </li>
+                    <li class="nav-item scelto">
+                        <a class="nav-link nav-link-scelto" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-dark">Cerca</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-dark">
+                        <img class="navbar-search" src="Assets/Icon/search.png" alt="search.png">
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div id="works">
+        <p class="path-info">works/</p>
+        <h1 class="titolo-home">My works</h1>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="indicators-carousel active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li class="indicators-carousel" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li class="indicators-carousel" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-corousel">
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                        
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row row-corousel">
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                        
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row row-corousel">
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                        
+                        <div class="col-4">
+                            <img class="carousel-img" src="Assets/Img/lorem.jpg" alt="lorem.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <footer id="bottom">
+        <div class="row dark-gray">
+            <div class="col-8">
+                <h2 class="titolo">Contact</h2>
+                <ul class="list-group">
+                    <li class="list-group-item no-border">Indirizzo: Via Roma,18 - 10124 - Torino</li>
+                    <li class="list-group-item no-border">Telefono: +39.0141.939069</li>
+                    <li class="list-group-item no-border">Email: email@miaemail.it</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2 class="titolo">Seguici su</h2>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/facebook.png" alt="facebook.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/twitter.png" alt="twitter.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/instagram.png" alt="instagram.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/google-plus.png" alt="google-plus.png">
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

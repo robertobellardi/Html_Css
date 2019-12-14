@@ -1,0 +1,20 @@
+.path-info{
+    margin: 1rem 0 1rem 1rem;
+}
+
+.row-corousel{
+    margin: 0 auto;
+}
+
+.carousel-img{
+    width: 300px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.indicators-carousel{
+    background-color: black!important;
+}
