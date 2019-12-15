@@ -1,17 +1,1 @@
-.tit-reg{
-    text-align: center;
-}
-
-.registration{
-    width: 100%;
-}
-
-.registration form{
-    width: calc(100% - 200px);
-    margin: 50px 100px;
-}
-
-#privacy{
-    width: 100%;
-    height: 150px;
-}
+.tit-reg{text-align:center}.registration{width:100%}.registration form{width:calc(100% - 200px);margin:50px 100px}#privacy{width:100%;height:150px}

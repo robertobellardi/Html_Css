@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Blog avanzato</title>
+    <meta charset="utf-8">
+    <meta name="description" content="il mio sito">
+    <meta name="keywords" content="HTML, CSS, JQUERY , BOOSTRAP , JavaScript">
+    <meta name="author" content="Roberto Bellardi Gioli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="Css/top.css">
+    <link rel="stylesheet" type="text/css" href="Css/home.css">
+    <link rel="stylesheet" type="text/css" href="Css/joinUs.css">
+    <link rel="stylesheet" type="text/css" href="Css/homeDetails.css">
+    <link rel="stylesheet" type="text/css" href="Css/worksDetails.css">
+    <link rel="stylesheet" type="text/css" href="Css/bottom.css">
+</head>
+
+<body>
+    <div id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class="navbar-logo" src="Assets/Icon/logo.png" alt="logo.png">
+            <a class="navbar-brand" href="blog.html">MyBrand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item scelto">
+                        <a class="nav-link nav-link-scelto" href="blog.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="location.html">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinUs.html">Join Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-dark">Cerca</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-dark">
+                        <img class="navbar-search" src="Assets/Icon/search.png" alt="search.png">
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <section id="homeDetails">
+
+        <div id="img-top" class="container-fluid container-img">
+            <img class="img-top" src="Assets/Img/cielo.jpg" alt="cielo.jpg">
+            <h1 class="tit-hover-img">Cum sociis natoque penatibus</h1>
+            <p class="tit-hover-img">magnis dis parturient montes,nascetur ridiculus mus</p>
+        </div>
+
+        <p class="path-info">home/Lorem ipsum dolor sit amet</p>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="card">
+                    <h2 class="sottit-home">Lorem ipsum dolor sit amet</h2>
+
+                    <p><img class="card-img-left" src="Assets/Img/mesmile.png" alt="thunder.jpg">Author<br>5 maggio 2018</p>
+                    <p><img class="card-img-right" src="Assets/Img/thunder.jpg" alt="thunder.jpg">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum erat id sem dictum commodo. Cras at lectus vehicula, tincidunt tellus vitae, vehicula purus. Nullam mi elit, suscipit et tristique ut, gravida vehicula nulla. Suspendisse rhoncus eros sit amet volutpat tincidunt. Nunc velit purus, porta eu tortor ut, rutrum condimentum sem. Nulla aliquet tempor ante, feugiat rutrum eros fringilla non. Nulla sed enim a ex blandit tempor. Nunc scelerisque sapien ligula, sed aliquam mauris gravida ut. Cras vitae volutpat erat, ac congue leo. Fusce ut dui eu lacus gravida interdum. Morbi euismod euismod rhoncus. Nam eu maximus nisi.</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card card-right">
+                    <div class="card-body">
+                        <h2>Correlati</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item item-border-bottom red">Aliquam in lorem sit amet</li>
+                            <li class="list-group-item item-border-bottom red">Class aptent taciti sociosqu</li>
+                            <li class="list-group-item item-border-bottom red">Maecenas lorem</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <h2>Archivio</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item item-border-bottom red">2017
+                                <button type="button" class="btn btn-danger btn-right">
+                                    <span class="badge badge-light">120</span>
+                                </button>
+                            </li>
+                            <li class="list-group-item item-border-bottom red">2016
+                                <button type="button" class="btn btn-danger btn-right">
+                                    <span class="badge badge-light">113</span>
+                                </button>
+                            </li>
+                            <li class="list-group-item item-border-bottom red">2015
+                                <button type="button" class="btn btn-danger btn-right">
+                                    <span class="badge badge-light">94</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <a href="homeDetails.html" class="badge badge-dark button-prev">Precedente</a>
+            <a href="homeDetails.html" class="badge badge-dark button-next">Successivo</a>
+        </div>
+
+        <div id="commenti">
+            <div class="commento">
+                <p><img class="card-img-left" src="Assets/Img/mesmile.png" alt="thunder.jpg">Pinco Pallo<br>5 maggio 2018</p>
+                <p>Un commento di prova di uno lettore</p>
+            </div>
+
+            <div id="areaCommenti" class="input-comment">
+                <form>
+                    <div class="form-group">
+                        <label for="privacy">lascia un commento</label>
+                        <textarea id="privacy"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Inserisci il nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Inserisci la tua email">
+                    </div>
+                    <button type="button" class="btn btn-dark button-center">Commenta</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="bottom">
+        <div class="row dark-gray">
+            <div class="col-8">
+                <h2 class="titolo">Contact</h2>
+                <ul class="list-group">
+                    <li class="list-group-item no-border">Indirizzo: Via Roma,18 - 10124 - Torino</li>
+                    <li class="list-group-item no-border">Telefono: +39.0141.939069</li>
+                    <li class="list-group-item no-border">Email: email@miaemail.it</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2 class="titolo">Seguici su</h2>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/facebook.png" alt="facebook.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/twitter.png" alt="twitter.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/instagram.png" alt="instagram.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/google-plus.png" alt="google-plus.png">
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
