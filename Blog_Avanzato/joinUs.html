@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Blog avanzato</title>
+    <meta charset="utf-8">
+    <meta name="description" content="il mio sito">
+    <meta name="keywords" content="HTML, CSS, JQUERY , BOOSTRAP , JavaScript">
+    <meta name="author" content="Roberto Bellardi Gioli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="Css/top.css">
+    <link rel="stylesheet" type="text/css" href="Css/home.css">
+    <link rel="stylesheet" type="text/css" href="Css/joinUs.css">
+    <link rel="stylesheet" type="text/css" href="Css/bottom.css">
+</head>
+
+<body>
+    <div id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class="navbar-logo" src="Assets/Icon/logo.png" alt="logo.png">
+            <a class="navbar-brand" href="blog.html">MyBrand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item scelto">
+                        <a class="nav-link nav-link-scelto" href="blog.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="location.html">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinUs.html">Join Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-dark">Cerca</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-dark">
+                        <img class="navbar-search" src="Assets/Icon/search.png" alt="search.png">
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div id="joinUs">
+        <h1 class="tit-reg">Registration</h1>
+        <div class="registration">
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Inserisci il nome">
+                </div>
+                <div class="form-group">
+                    <label for="cognome">Cognome</label>
+                    <input type="text" class="form-control" id="cognome" placeholder="Inserisci il cognome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Inserisci la tua email">
+                </div>
+                <div class="form-group">
+                    <label for="data">Data di nascita</label>
+                    <input type="date" class="form-control" id="data">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Inserisci una password">
+                </div>
+                <div class="form-group">
+                    <label for="conferma-password">Conferma</label>
+                    <input type="password" class="form-control" id="conferma-password" placeholder="Conferma la password">
+                </div>
+                <div class="form-group">
+                    <label for="indirizzo">Indirizzo</label>
+                    <input type="text" class="form-control" id="indirizzo" placeholder="Via .../C.so...">
+                </div>
+                <div class="form-group">
+                    <label for="citySel">Città</label>
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="citySel">
+                            <option selected>Scegli città...</option>
+                            <option value="1">Firenze</option>
+                            <option value="2">Milano</option>
+                            <option value="3">Napoli</option>
+                            <option value="4">Roma</option>
+                            <option value="5">Torino</option>
+                        </select>
+                        <div class="input-group-append">
+                            <label class="input-group-text" for="citySel">Options</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="numero">Telefono</label>
+                    <input type="text" class="form-control" id="numero" placeholder="Inserisci il numero telefonico">
+                </div>
+                <div class="form-group">
+                    <label for="siteweb">Indirizzo del sito web</label>
+                    <input type="text" class="form-control" id="siteweb" placeholder="Sito web">
+                </div>
+                <textarea id="privacy" readonly disabled>
+Informativa sulla privacy
+“Termini del servizio” e “Condizioni di privacy”
+La società BLABLA desidera informarLa che il D.Lgs. 196/2003, sostitutivo della legge 675/1996, prevede la tutela delle persone e di altri soggetti rispetto al trattamento dei dati personali.
+Secondo il decreto legislativo indicato, tale trattamento sarà improntato ai principi di correttezza, liceità e trasparenza e di tutela della Sua riservatezza e dei Suoi diritti.
+                </textarea>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label tit" for="exampleCheck1">Accetto i termini</label>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary" id="ripristina">Ripristina</button>
+                <button type="submit" class="btn btn-primary" id="invia">Invia</button>
+            </form>
+        </div>
+    </div>
+
+    <footer id="bottom">
+        <div class="row dark-gray">
+            <div class="col-8">
+                <h2 class="titolo">Contact</h2>
+                <ul class="list-group">
+                    <li class="list-group-item no-border">Indirizzo: Via Roma,18 - 10124 - Torino</li>
+                    <li class="list-group-item no-border">Telefono: +39.0141.939069</li>
+                    <li class="list-group-item no-border">Email: email@miaemail.it</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2 class="titolo">Seguici su</h2>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/facebook.png" alt="facebook.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/twitter.png" alt="twitter.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/instagram.png" alt="instagram.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/google-plus.png" alt="google-plus.png">
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

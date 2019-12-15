@@ -1,0 +1,10 @@
+.container-maps{
+    width: 100%;
+}
+
+.maps{
+    width: calc(100% - 50px);
+    height: 500px;
+    border: 0;
+    margin: 0 25px;
+}

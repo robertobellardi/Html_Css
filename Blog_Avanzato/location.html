@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Blog avanzato</title>
+    <meta charset="utf-8">
+    <meta name="description" content="il mio sito">
+    <meta name="keywords" content="HTML, CSS, JQUERY , BOOSTRAP , JavaScript">
+    <meta name="author" content="Roberto Bellardi Gioli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="Css/top.css">
+    <link rel="stylesheet" type="text/css" href="Css/home.css">
+    <link rel="stylesheet" type="text/css" href="Css/location.css">
+    <link rel="stylesheet" type="text/css" href="Css/bottom.css">
+</head>
+
+<body>
+    <div id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class="navbar-logo" src="Assets/Icon/logo.png" alt="logo.png">
+            <a class="navbar-brand" href="blog.html">MyBrand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item scelto">
+                        <a class="nav-link nav-link-scelto" href="blog.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="works.html">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="location.html">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinUs.html">Join Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-dark">Cerca</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-dark">
+                        <img class="navbar-search" src="Assets/Icon/search.png" alt="search.png">
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div id="location">
+        <div id="img-top" class="container-fluid container-img">
+            <img class="img-top" src="Assets/Img/cielo.jpg" alt="cielo.jpg">
+            <h2 class="tit-hover-img">Cum sociis natoque penatibus</h2>
+            <p class="tit-hover-img">magnis dis parturient montes,nascetur ridiculus mus</p>
+        </div>
+
+        <p class="path-info">location/</p>
+        <h1 class="titolo-home">Location</h1>
+
+        <div class="row">
+            <div class="col-9">
+                <h2>Ut tempus purus at lorem</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum erat id sem dictum commodo. Cras at lectus vehicula, tincidunt tellus vitae, vehicula purus. Nullam mi elit, suscipit et tristique ut, gravida vehicula nulla. Suspendisse rhoncus eros sit amet volutpat tincidunt. Nunc velit purus, porta eu tortor ut, rutrum condimentum sem. Nulla aliquet tempor ante, feugiat rutrum eros fringilla non. Nulla sed enim a ex blandit tempor. Nunc scelerisque sapien ligula, sed aliquam mauris gravida ut. Cras vitae volutpat erat, ac congue leo. Fusce ut dui eu lacus gravida interdum. Morbi euismod euismod rhoncus. Nam eu maximus nisi.</p>
+            </div>
+
+            <div class="col-3">
+                <div class="card-body">
+                    <h2>Office</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item item-border-bottom red">Via Roma,18 - 10124 - Torino Italia</li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h2>Sales</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item item-border-bottom red">Via Torino,52 - 00024 - Roma Italia</li>
+                        <li class="list-group-item item-border-bottom red">+39.01410939069</li>
+                        <li class="list-group-item item-border-bottom red">+39.01410939069</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-maps">
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.7658645882275!2d7.682075615703802!3d45.07026046766322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d71caf3db83%3A0x214e6f7ee3c5cff5!2sVia%20Roma%2C%2018%2C%2010121%20Torino%20TO!5e0!3m2!1sit!2sit!4v1576408017069!5m2!1sit!2sit" allowfullscreen=""></iframe>
+        </div>
+    </div>
+
+    <footer id="bottom">
+        <div class="row dark-gray">
+            <div class="col-8">
+                <h2 class="titolo">Contact</h2>
+                <ul class="list-group">
+                    <li class="list-group-item no-border">Indirizzo: Via Roma,18 - 10124 - Torino</li>
+                    <li class="list-group-item no-border">Telefono: +39.0141.939069</li>
+                    <li class="list-group-item no-border">Email: email@miaemail.it</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2 class="titolo">Seguici su</h2>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/facebook.png" alt="facebook.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/twitter.png" alt="twitter.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/instagram.png" alt="instagram.png">
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <img class="navbar-search" src="Assets/Icon/google-plus.png" alt="google-plus.png">
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
